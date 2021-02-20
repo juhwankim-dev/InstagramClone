@@ -1,4 +1,4 @@
-package com.example.instagramproject3
+package com.example.instagramproject
 
 import org.junit.Test
 
