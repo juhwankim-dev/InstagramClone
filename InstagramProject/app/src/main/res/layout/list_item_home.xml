@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/userImg"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="16dp"
+                android:background="#cecece"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#333330"
+                android:text="design_code"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_more"
+
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/photoImg"
+            android:layout_width="match_parent"
+            android:layout_height="339dp"
+            android:background="@drawable/friends"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/likeicon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_like"
+                android:layout_marginLeft="16dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_comment"
+                android:layout_marginLeft="9dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_dm"
+                android:layout_marginLeft="9dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_save"
+                android:layout_marginRight="16dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            />
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginLeft="16dp"
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="5dp">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:textColor="#000000"
+            />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="14sp"
+               android:text="너무 귀엽잖아~~"
+               android:textColor="#000000"
+               />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="댓글 16개 모두 보기"
+            android:textColor="#808080"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:id="@+id/name_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="kate__ohh"
+            android:layout_marginRight="5dp"
+            android:textColor="#0067a3"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="진짜 귀엽당"
+            android:layout_marginRight="5dp"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
